@@ -1,4 +1,4 @@
-import 'dart:nativewrappers/_internal/vm/lib/math_patch.dart';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:sorting_app/components/sorting_button.dart';
@@ -57,8 +57,6 @@ Widget build(BuildContext context) {
 }
 }
 
-extension on Random {
-  nextInt(int length) {}
-}
+
  
 
